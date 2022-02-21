@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.h {
+    display: flex;
+    flex-direction: column; 
+    background: #1F2937;
+    color: white;
+}
+
+.h-top,
+.h-bot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.h-bot__image {
+    width: 400px;
+    height: 200px;
+    background: aqua;
+}
