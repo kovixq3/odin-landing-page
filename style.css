@@ -1,3 +1,4 @@
+/* Global */
 body {
     margin: 0;
     padding: 0;
@@ -8,6 +9,8 @@ a {
     color: white;
 }
 
+
+/* Header */
 .h {
     display: flex;
     flex-direction: column; 
@@ -26,4 +29,57 @@ a {
     width: 400px;
     height: 200px;
     background: aqua;
+}
+
+
+/* PLACEHOLDER */
+.main-i img {
+    width: 15vw;
+    height: 15vw;
+    border: aqua 2px solid;
+    border-radius: 10px;
+}
+
+/* Main */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Quote */
+.quote__ctr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Sign up */
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
